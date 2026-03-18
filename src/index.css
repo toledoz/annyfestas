@@ -1,0 +1,49 @@
+:root {
+  --primary-pink: hsl(330, 70%, 55%);
+  --primary-blue: hsl(215, 80%, 45%);
+  --navbar-yellow: hsl(45, 100%, 60%);
+  --text-dark: hsl(0, 0%, 15%);
+  --bg-light: hsl(0, 0%, 100%);
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+section {
+  padding: 5rem 10%;
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 3rem 5%;
+  }
+}
